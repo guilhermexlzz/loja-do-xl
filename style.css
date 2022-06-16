@@ -1,0 +1,309 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu{
+   width: 100%; 
+   background: #ffffff;
+   box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-flex{
+    display: flex;
+    align-items: center;
+    font-family:'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.menu-column{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+
+}
+
+.menu-column.menu-second-column{
+    justify-content: flex-end;
+
+}
+.menu-nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    
+}
+
+.menu-nav ul li a{
+    text-decoration: none;
+    color: #585e65;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 15px;
+
+}
+
+.logo{
+    margin-right: 90px;
+
+}
+
+.menu-link-button{
+    text-decoration: none;
+    height: 40px;
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 5px;
+
+}
+.body{
+    background-color: rgba(0, 0, 0, 0.05);
+
+}
+
+.container2{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-family:'Inter', sans-serif;
+
+}
+
+.corpo-guarda{
+    width: 280px;
+    height: 420px;
+    background-color: #ffffff;
+    margin-top: 3%;
+    border-radius: 4px;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+
+}
+
+.logo-guardaroupa{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    padding: 0%;
+    margin: 0px 43px 5px 43px;
+}
+.guarda-texto{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px;
+    margin-bottom: 71px;
+    
+}
+
+.preco1{
+    margin:10px 0px 30px 10px;
+    font-weight: 500;
+
+}
+
+.addcarri1{
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #4c6ef5;
+    padding: 10px 17px;
+    margin: 40px;
+    color: #ffffff;
+    border-radius: 3px;
+
+}
+
+
+.corpo-bira{
+    width: 280px;
+    height: 420px;
+    background-color: #ffffff;
+    margin-top: 3%;
+    border-radius: 4px;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.logo-bira{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    padding: 0%;
+    margin: 0px 43px 5px 43px;
+}
+
+.bira-texto{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px;
+    
+}
+
+.preco2{
+    margin:10px 0px 30px 10px;
+    font-weight: 500;
+
+}
+
+.addcarri2{
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #4c6ef5;
+    padding: 10px 17px;
+    margin: 40px;
+    color: #ffffff;
+    border-radius: 3px;
+
+}
+
+
+.corpo-secador{
+    width: 280px;
+    height: 420px;
+    background-color: #ffffff;
+    margin-top: 3%;
+    border-radius: 4px;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+
+}
+
+.logo-seca{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    padding: 0%;
+    margin: 0px 43px 5px 43px;
+
+}
+
+.seca-texto{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.preco3{
+    margin:10px 0px 30px 10px;
+    font-weight: 500;
+
+}
+
+.addcarri3{
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #4c6ef5;
+    padding: 10px 17px;
+    margin: 40px;
+    color: #ffffff;
+    border-radius: 3px;
+
+}
+
+
+
+
+.corpo-tv{
+    width: 280px;
+    height: 420px;
+    background-color: #ffffff;
+    margin-top: 3%;
+    border-radius: 4px;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+
+}
+
+.logo-tv{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    padding: 0%;
+    margin: 0px 43px 5px 43px;
+
+
+}
+
+.tv-texto{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px;
+}
+
+.preco4{
+    margin:10px 0px 30px 10px;
+    font-weight: 500;
+   
+}
+
+.addcarri4{
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #4c6ef5;
+    padding: 10px 17px;
+    margin: 40px;
+    color: #ffffff;
+    border-radius: 3px;
+
+}
+
+
+
